@@ -1,7 +1,6 @@
 node_modules/
 
 /kanban/public/
-/kanban/README.md
 
 /server/.env
 /server/db.js
