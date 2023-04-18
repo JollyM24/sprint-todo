@@ -1,0 +1,69 @@
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .taskInfo {
+    width: 500px;
+    background-color: rgb(232, 227, 227);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+
+  .taskInfo .form-title-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .taskInfo .form-title-container input{
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+  }
+
+  .taskInfo  .form-title-container button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .taskInfo form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .taskInfo input {
+    margin: 10px 0 20px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px grey;
+  }
+
+  .taskInfo label {
+    font-size: 1.25rem;
+  }
+  
+  .taskInfo #descr {
+    min-height: 100px;
+  }
+
+  .taskInfo #priority {
+    max-width: 30px;
+  }
+
+  .taskInfo .submit {
+    display: flex;
+    justify-content: center;
+  }
+
+  #submit {
+    width: 50%;
+  }
