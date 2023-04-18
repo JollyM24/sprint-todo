@@ -1,9 +1,1 @@
 node_modules/
-
-package-lock.json
-package.json
-
-/kanban/public/
-
-/server/.env
-/server/db.js
