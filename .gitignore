@@ -1,8 +1,5 @@
 node_modules/
 
-package-lock.json
-package.json
-
 /kanban/public/
 /kanban/README.md
 
