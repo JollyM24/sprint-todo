@@ -7,10 +7,8 @@
     width: 100%;
     min-height: 130px;
     display: flex;
-    align-items: flex-end;
     padding: 1em 3em;
     background-color: rgb(72, 86, 117);
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -24,7 +22,10 @@ h1 {
 .header button {
     display: inline-block;
     width: fit-content;
+    min-width: 8em;
     height: fit-content;
     padding: 5px 20px;
+    margin: 0 .5em;
     font-size: 18px;
+    text-decoration: none;
 }

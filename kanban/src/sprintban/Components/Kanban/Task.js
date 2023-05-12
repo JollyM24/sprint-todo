@@ -1,10 +1,9 @@
 import './TasksColumn.css';
 
 function Task (props) {
-
     return (
         <div className="task">
-            <div className="card mb-3" key={props.task.id}>
+            <div className="card mb-3" key={props.task.id} style={{backgroundColor: props.type.colorcode}}>
                         <div className="card-body" 
                             onClick={() => {
                             props.setShowTaskInfo(true);

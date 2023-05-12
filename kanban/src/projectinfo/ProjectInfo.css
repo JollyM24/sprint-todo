@@ -1,0 +1,58 @@
+.pi-container {
+    padding: 2em;
+    display: grid;
+}
+
+.pi-card {
+    margin: .5em;
+    padding: 1em 2em;
+    
+    /* положение элементов внутри карточки; высота родителя расширяется */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    border: none;
+    border-radius: .4em;
+}
+
+#projectinfo {
+    font-size: 1.2em;
+    background-color:rgba(113, 161, 249, 0.557);
+}
+
+#currentSprint {
+    background-color:rgba(121, 157, 229, 0.557);
+}
+
+#doneSprint {
+    background-color: rgba(71, 93, 138, 0.557);
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.pi-card-title {
+    margin: 2px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+}
+
+.pi-card-title span {
+    font-size: .7em;
+    color: rgb(71, 72, 72);
+    font-style: italic;
+}
+
+.pi-card-date {
+    font-size: 1em;
+    font-weight: 600;
+    color:rgb(71, 72, 72)
+}
+
+.pi-card-description {
+    font-size: 1em;
+}

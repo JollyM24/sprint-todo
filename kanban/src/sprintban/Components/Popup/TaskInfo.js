@@ -19,6 +19,8 @@ function TaskInfo( { setShowTaskInfo, task, getData } ) {
                 headers: {'Content-Type': 'application/json' },
                 body: JSON.stringify(data),
             })
+
+            // const response = await ky.put(`${BASE_URL}...`, {json: data})
             if (response.status === 200) {
                 setShowTaskInfo(null)
                 setTimeout(() => getData(), 500)

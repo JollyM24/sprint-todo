@@ -1,3 +1,38 @@
+.kanban-field {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
 .row {
     padding: 20px 50px;
+}
+
+.types-color-legend {
+    margin: 1em;
+    margin-top: 1.5em;
+    margin-left: 3em; 
+    padding: 1em 2em;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(95, 95, 157);
+    border-radius: .3em;
+}
+
+.type-box {
+    justify-content: center;
+}
+
+.marker {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: .5em;
+}
+
+.type-name {
+    display: inline-block;
+    font-size: 1.3em;
+    hyphens: manual;
 }

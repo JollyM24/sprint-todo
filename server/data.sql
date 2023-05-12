@@ -30,3 +30,9 @@ CREATE TABLE score (
     done INT,
     sprint_id INT REFERENCES sprints (id)
 );
+
+CREATE TABLE types (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(255),
+	colorcode VARCHAR(7)
+);
