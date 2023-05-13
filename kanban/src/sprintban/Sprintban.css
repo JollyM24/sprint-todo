@@ -34,5 +34,5 @@
 .type-name {
     display: inline-block;
     font-size: 1.3em;
-    hyphens: manual;
+    hyphens: auto;
 }

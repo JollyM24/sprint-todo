@@ -42,15 +42,14 @@ function TaskInfo( { setShowTaskInfo, task, getData } ) {
         <div className="overlay">
             <div className="taskInfo">
                 <div className="form-title-container">
-                   <h3>
                    <input 
                         required
                         placeholder="your task"
                         name="title"
                         value={data.title}
                         onChange={handleChange}
+                        onkeydown="this.style.width = ((this.value.length + 1) * 8) + 'px';"
                     />
-                    </h3> 
                    <button onClick={() => setShowTaskInfo(null)}>X</button>
                 </div>
 
